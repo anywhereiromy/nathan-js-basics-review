@@ -53,19 +53,34 @@ const removeNthElement2 = (index, array) =>
 }
 
 const elementsStartingWithAVowel = strings => {
-  // your code here
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+  return strings.filter(word => {
+    const firstLetter = word[0].toLowerCase();
+
+    return vowels.includes(firstLetter);
+  });
 };
 
-const removeSpaces = string => {
-  // your code here
-};
+const removeSpaces = string => string.split(' ').join('');
+{
+}
 
-const sumNumbers = numbers => {
-  // your code here
-};
+const sumNumbers = numbers =>
+  numbers.reduce((total, number) => {
+    return total + number;
+  }, 0);
 
 const sortByLastLetter = strings => {
-  // your code here
+  const reverseString = item =>
+    item
+      .split('')
+      .reverse()
+      .join('');
+  return strings
+    .map(reverseString)
+    .sort()
+    .map(reverseString);
 };
 
 module.exports = {
