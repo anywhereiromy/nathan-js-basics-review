@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1638304330427" clover="3.2.0">
+  <project timestamp="1638304330427" name="All files">
+    <metrics statements="73" coveredstatements="73" conditionals="10" coveredconditionals="10" methods="58" coveredmethods="40" elements="141" coveredelements="123" complexity="0" loc="73" ncloc="73" packages="1" files="5" classes="5"/>
+    <file name="arrays.js" path="/home/nathan/Desktop/projects/javascript-basics/src/arrays.js">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+    </file>
+    <file name="booleans.js" path="/home/nathan/Desktop/projects/javascript-basics/src/booleans.js">
+      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="15" coveredmethods="15"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="22" count="9" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="34" count="3" type="stmt"/>
+      <line num="38" count="4" type="stmt"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="46" count="4" type="stmt"/>
+      <line num="50" count="3" type="stmt"/>
+      <line num="54" count="3" type="stmt"/>
+      <line num="58" count="3" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+    </file>
+    <file name="numbers.js" path="/home/nathan/Desktop/projects/javascript-basics/src/numbers.js">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="22" count="3" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="34" count="3" type="stmt"/>
+      <line num="38" count="4" type="stmt"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+    </file>
+    <file name="objects.js" path="/home/nathan/Desktop/projects/javascript-basics/src/objects.js">
+      <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="8"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+    </file>
+    <file name="strings.js" path="/home/nathan/Desktop/projects/javascript-basics/src/strings.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

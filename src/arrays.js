@@ -1,61 +1,86 @@
 const getNthElement = (index, array) => {
-  // your code here
+  const newIndex = index < array.length ? index : index - array.length;
+
+  return array[newIndex];
 };
 
-const arrayToCSVString = array => {
-  // your code here
-};
+const arrayToCSVString = array => array.join();
+{
+}
 
-const csvStringToArray = string => {
-  // your code here
-};
+const csvStringToArray = string => string.split(',');
+{
+}
 
 const addToArray = (element, array) => {
-  // your code here
+  array.push(element);
 };
 
-const addToArray2 = (element, array) => {
-  // your code here
-};
+const addToArray2 = (element, array) => array.concat([element]);
+{
+}
 
-const removeNthElement = (index, array) => {
-  // your code here
-};
+const removeNthElement = (index, array) => array.splice(index, 1);
+{
+}
 
-const numbersToStrings = numbers => {
-  // your code here
-};
+const numbersToStrings = numbers => numbers.map(number => String(number));
+{
+}
 
-const uppercaseWordsInArray = strings => {
-  // your code here
-};
+const uppercaseWordsInArray = strings =>
+  strings.map(word => word.toUpperCase());
+{
+}
 
-const reverseWordsInArray = strings => {
-  // your code here
-};
+const reverseWordsInArray = strings =>
+  strings.map(word =>
+    word
+      .split('')
+      .reverse()
+      .join('')
+  );
+{
+}
 
-const onlyEven = numbers => {
-  // your code here
-};
+const onlyEven = numbers => numbers.filter(number => number % 2 === 0);
+{
+}
 
-const removeNthElement2 = (index, array) => {
-  // your code here
-};
+const removeNthElement2 = (index, array) =>
+  array.filter((_, itemIndex) => itemIndex !== index);
+{
+}
 
 const elementsStartingWithAVowel = strings => {
-  // your code here
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+  return strings.filter(word => {
+    const firstLetter = word[0].toLowerCase();
+
+    return vowels.includes(firstLetter);
+  });
 };
 
-const removeSpaces = string => {
-  // your code here
-};
+const removeSpaces = string => string.split(' ').join('');
+{
+}
 
-const sumNumbers = numbers => {
-  // your code here
-};
+const sumNumbers = numbers =>
+  numbers.reduce((total, number) => {
+    return total + number;
+  }, 0);
 
 const sortByLastLetter = strings => {
-  // your code here
+  const reverseString = item =>
+    item
+      .split('')
+      .reverse()
+      .join('');
+  return strings
+    .map(reverseString)
+    .sort()
+    .map(reverseString);
 };
 
 module.exports = {
