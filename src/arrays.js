@@ -12,9 +12,9 @@ const csvStringToArray = string => string.split(',');
 {
 }
 
-const addToArray = (element, array) => array.push(element);
-{
-}
+const addToArray = (element, array) => {
+  array.push(element);
+};
 
 const addToArray2 = (element, array) => array.concat([element]);
 {

@@ -48,9 +48,17 @@ const createTalkingPerson = (name, age) => {
     name: name,
     age: age,
     introduce: strangersName => {
-      return Hi {strangersName}, my name is {name} and I am {age}!;
+      return (
+        'Hi ' +
+        strangersName +
+        ', my name is ' +
+        name +
+        ' and I am ' +
+        age +
+        '!'
+      );
     }
-    };
+  };
 };
 
 module.exports = {
